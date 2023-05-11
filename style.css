@@ -1,0 +1,611 @@
+@font-face {
+    font-family: "IRANSansblack";
+    src: url('fonts//webfontss/woff/IRANSansX-Black.woff') format('woff'),
+        url('fonts/webfontss/woff2/IRANSansX-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansbold";
+    src: url('fonts/webfontss/woff/IRANSansX-Bold.woff') format('woff'),
+        url('fonts/webfontss/woff2/IRANSansX-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSanslight";
+    src: url('fonts/webfontss/woff/IRANSansX-Light.woff') format('woff'),
+        url('fonts/webfontss/woff2/IRANSansX-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansDemibold";
+    src: url('fonts/webfontss/woff/IRANSansX-DemiBold.woff') format('woff'),
+        url('fonts/webfontss/woff2/IRANSansX-DemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansExtrabold";
+    src: url('fonts/webfontss/woff/IRANSansX-ExtraBold.woff') format('woff'),
+        url('fonts/webfontss/woff2/IRANSansX-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansMedium";
+    src: url('fonts/webfontss/woff/IRANSansX-Medium.woff') format('woff'),
+        url('fonts/webfontss/woff2/IRANSansX-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSanslight";
+    src: url('fonts/webfontss/woff/IRANSansX-Light.woff') format('woff'),
+        url('fonts/webfontss/woff2/IRANSansX-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansultralight";
+    src: url('fonts/webfontss/woff/IRANSansX-UltraLight.woff') format('woff'),
+        url('fonts/webfontss/woff2/IRANSansX-UltraLight.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansregular";
+    src: url('fonts/webfontss/woff/IRANSansX-Regular.woff') format('woff'),
+        url('fonts/webfontss/woff2/IRANSansX-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansThin";
+    src: url('fonts/webfontss/woff/IRANSansX-Thin.woff') format('woff'),
+        url('fonts/webfontss/woff2/IRANSansX-Thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansfanumblack";
+    src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Black.woff') format('woff'),
+        url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansfanumbold";
+    src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Bold.woff') format('woff'),
+        url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansfanumlight";
+    src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Light.woff') format('woff'),
+        url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansfanumextrabold";
+    src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-ExtraBold.woff') format('woff'),
+        url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansfanumthin";
+    src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Thin.woff') format('woff'),
+        url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansfanumdemibold";
+    src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-DemiBold.woff') format('woff'),
+        url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-DemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansfanummedium";
+    src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Medium.woff') format('woff'),
+        url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansfanumregular";
+    src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Regular.woff') format('woff'),
+        url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansfanumultralight";
+    src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-UltraLight.woff') format('woff'),
+        url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-UltraLight.woff2') format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+header .header_right div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+header .header_right div img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+header .header_right div>div {
+    border: 1px solid #ccc;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-family: "IRANSansregular";
+    cursor: pointer;
+    transition: 0.3s;
+    color: #555;
+}
+
+header .header_right div>div:hover {
+    background-color: #eee;
+}
+
+header .header_right div>div span {
+    padding: 0 5px;
+    font-size: 17px;
+}
+
+header .header_right a {
+    background-color: #dc3545;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: "IRANSansregular";
+    transition: 0.5s;
+    margin: 0 30px;
+}
+
+header .header_right a:hover {
+    background-color: #bb2533;
+}
+
+
+header .header_left ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: "IRANSansregular";
+    margin-left: 20px;
+}
+
+header .header_left ul li a {
+    color: #262626;
+    font-size: 1rem;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+section .sidebar {
+    width: 25%;
+    height: 100%;
+}
+
+
+
+section .sidebar>h3 {
+    font-family: "IRANSansregular";
+    padding: 25px;
+}
+
+section .sidebar ul {
+    padding: 0 25px;
+}
+
+section .sidebar ul li {
+    padding: 15px 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+section .sidebar ul li:hover {
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+section .sidebar ul li span {
+    padding: 0 0 0 10px;
+    color: #777;
+    font-size: 17px;
+}
+
+section .sidebar ul li a {
+    color: #777;
+    font-family: "IRANSansregular";
+}
+
+section .sidebar ul hr {
+    margin: 10px 25px;
+}
+
+section .sidebar .footer>div {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+section .sidebar .footer>div a {
+    font-family: "IRANSansregular";
+    color: #777;
+    padding: 5px 12px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1rem;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+section .sidebar .footer>div a:hover {
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+section .sidebar .footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .sidebar .footer .social span {
+    margin: 0 15px;
+    font-size: 20px;
+    color: #555;
+}
+
+
+section .sidebar .footer .footer_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .sidebar .footer .footer_img img {
+    width: 110px;
+    margin: 10px;
+    cursor: poniter;
+}
+
+section .main {
+    width: 75%;
+    height: auto;
+    padding: 35px;
+}
+
+section .main .search {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-family: "IRANSansregular";
+
+}
+
+section .main .search>div {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 15px 35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+section .main .search input {
+    width: 50%;
+    font-family: "IRANSansregular";
+    padding: 17px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    border-right: none;
+}
+
+section .main .cat {
+    margin: 20px 0;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+section .main .cat a {
+    font-family: "IRANSansregular";
+    border: 1px solid #dc3545;
+    margin: 8px;
+    padding: 5px 13px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #dc3545;
+    transition: 0.3s;
+}
+
+section .main .cat a:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+section .main .location {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: "IRANSansregular";
+    font-size: 15px;
+    margin-top: 30px;
+    color: #555;
+}
+
+section .main hr {
+    color: rgba(235, 235, 233, 0.877);
+    margin: 20px 0;
+}
+
+section .main .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+section .main .boxes .box {
+    display: flex;
+    width: calc(50.333333% - 46px);
+    height: 184px;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+section .main .boxes .box>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+section .main .boxes .box>div .info {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+section .main .boxes .box>div .imgBox img {
+    border-radius: 5px;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+section .main .boxes .box .info p {
+    font-family: "IRANSansfanumregular";
+    font-size: 13px;
+    color: rgba(0, 0, 0, .56);
+    line-height: 20px;
+}
+
+section .main .boxes .box .info h3 {
+    font-family: "IRANSansfanumregular";
+    margin-bottom: 52px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.mobile_hedader {
+    display: none;
+}
+
+.bottom_header {
+    display: none;
+}
+
+@media (max-width: 650px) {
+
+
+    .search_mobie {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "IRANSansfanumregular";
+        width: 350px;
+    }
+
+    .search_mobie div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        margin-left: 20px;
+        padding: 6px 9px;
+        background-color: #eee;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        cursor: pointer;
+
+    }
+
+    .hrform {
+        display: none;
+    }
+
+    .search_mobie input {
+        border: none;
+        outline: none;
+        padding: 8px 8px;
+        background-color: #eee;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-family: "IRANSansfanumregular";
+        width: 100%;
+        margin-left: 1px;
+    }
+
+    .header_continer {
+        display: flex;
+        align-items: center;
+        font-family: "IRANSansfanumregular";
+        width: 100%;
+        justify-content: space-around;
+
+
+
+    }
+
+    .header_continer .fa {
+        color: #555;
+    }
+
+    .mobile_hedader {
+        display: block;
+        display: flex;
+        align-items: center;
+        height: 55px;
+        width: 100%;
+        position: sticky;
+        z-index: 100;
+        top: 0;
+        background-color: #fff;
+    }
+
+    header {
+        display: none;
+    }
+
+    header .header_left {
+        display: none;
+    }
+
+    header .header_right {
+        display: none;
+    }
+
+    section .sidebar {
+        display: none;
+    }
+
+    section .main .search {
+        display: none;
+    }
+
+    section .main .boxes {
+        width: 100%;
+    }
+
+    section .main .boxes .box {
+        width: 100%;
+    }
+
+    section .main {
+        width: 100%;
+    }
+
+    section .main .location {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    section .main .cat {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        height: auto;
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    section .main .cat a {
+        color: #555;
+        border-color: #555;
+    }
+
+    section .main .cat a:hover {
+        background-color: #eee;
+        color: #555;
+    }
+
+    .bottom_header {
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: space-evenly;
+        bottom: 0;
+        background-color: #fff;
+        width: 100%;
+        height: 55px;
+        z-index: 99999;
+        border-top: 1px solid rgb(240, 240, 240);
+        box-shadow: 0 0 9px rgba(0, 0, 0, 0.2);
+    }
+
+    .bottom_header>div img {
+        width: 35px;
+       height: 35px;
+    }
+
+    .bottom_header>div {
+        display: flex;
+        flex-direction: column;
+        font-family: 'IRANSansregular';
+        font-size: 13px;
+        align-items: center;
+        justify-content: center;
+        color: #555;
+    }
+
+    .bottom_header .icons .fa {
+        font-size: 20px;
+        color: #555; 
+    }
+
+    .bottom_header .icons {
+
+        cursor: pointer;
+    }
+
+
+    .bottom_header .icons span {
+        color: #555;
+    }
+
+
+}
